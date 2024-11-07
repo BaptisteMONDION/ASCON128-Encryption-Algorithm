@@ -1,4 +1,4 @@
-ASCON128 Encryption Algorithm
+# **ASCON128 Encryption Algorithm**
 
 Data security is a key element in ensuring the confidentiality of communications in digital systems. In this project, we will use the symmetric encryption algorithm Ascon128 to effectively secure textual data. Developed in 2014 by cryptography experts Christoph Dobraunig, Maria Eichlseder, Florian Mendel, and Martin Schläffer, Ascon128 is based on a permutation-substitution architecture. It uses a 128-bit key to encrypt data, providing optimal security robustness.
 
@@ -15,7 +15,7 @@ The Ascon128 encryption algorithm follows a structured process to securely encry
 - Addition of the round constant
 - Substitution
 - Linear diffusion
-- 
+
 Next, XOR operations are performed with specific variables to add an additional layer of complexity to the encryption. The resulting values are stored in registers to record the final encryption and the Tag value.
 
 A Finite State Machine (FSM) is used to coordinate the encryption process by selecting and configuring control variables for each state. This ensures proper management of the process.
